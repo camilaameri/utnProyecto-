@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamburguesia</title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <header>
+        <nav class="header__nav">
+          <div class="header__logo">
+            <h4 >Hamburguesia</h4>
+            <div class="header__logo-overlay"></div>
+          </div>
+          <ul class="header__menu" >
+            <li>
+              <a href="#menu">Menu</a>
+            </li>
+            <li>
+              <a href="#food">Comida</a>
+            </li>
+            <li>
+              <a href="#services">Servicios</a>
+            </li>
+            <li>
+              <a href="#about-us">Sobre <br> nosotros</a>
+            </li>
+            <li>
+              <img src="img/search.svg" />
+            </li>
+          </ul>
+  
+          <ul class="header__menu-mobile" >
+            <li>
+              <img src="img/menu.svg" alt="menu" />
+            </li>
+          </ul>
+        </nav>
+      </header>
+     
+
+
+      <section class="hero">
+        <div class="hero-image">
+          <img 
+            src="img/hamburguesahero.png"
+            alt="hamburguesa"
+            data-aos="fade-up"
+          />
+          <h2>
+            S A B O R  <br> 
+            A B S O L U T O
+          </h2>
+  
+          <div class="hero-image__overlay"></div>
+        </div>  
+        <div class="hero-content">
+          <div class="hero-content-info" data-aos="fade-left">
+            <h1>Prueba las mejores hamburguesas de la historia</h1>
+            <p>Deslumbrate con nuestra variedad de sabores desde cualquier lugar donde estes.</p>
+  
+            <div class="hero-content__buttons">
+              <button class="hero-content__order-button">Ordena ahora</button>
+              <button class="hero-content__play-button">
+                <img src="img/play-circle.svg" alt="play" />
+                Como ordenar
+              </button>
+            </div>
+          </div>
+  
+          <div class="hero-content__testimonial" data-aos="fade-up">
+            <div class="hero-content__customer flex-center">
+              <h4>24<span>k+</span></h4>
+              <p>Clientes Felices</p>
+            </div>
+  
+            <div class="hero-content__review">
+              <img src="img/user.png" alt="user" />
+              <p>"Las mejores hamburguesas que jamas hayas provado."</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="about-us" id="about-us">
+        <div class="about-us__image-hamburguesa-3">
+          <div class="about-us__image-hamburguesa-3">
+            <img src="img/hamburguesa-producto3.png" alt="hamburguesa" data-aos="fade-right" />
+          </div>
+  
+          <button class="about-us__button">
+            descubre mas
+  
+            <img src="img/arrow-right.svg" alt="descubre mas." />
+          </button>
+  
+          <div class="about-us__image-hamburguesa2">
+            <img src="img/hamburguesa-producto2.png" alt="hamburguesa2"  data-aos="fade-right" />
+          </div>
+        </div>
+  
+        <div class="about-us__content"  data-aos="fade-left">
+          <p class="hamburguesa">Sobre nosotros</p>
+          <h3 class="hamburguesa__title">vamos a deslumbrarte con nuestra magia de sabores.</h3>
+          <p class="hamburguesa__description">Te brindamos calidad, variedad y originalidad en cada uno de nuestros productos. 
+          </p>
+        </div>
+      </section>
+
+
+
+      <section class="popular-foods" id="menu">
+        <h2 class="popular-foods__title" data-aos="flip-up">Nuestras hamburgesas mas populares</h2>
+  
+        <div class="popular-foods__filters hamburguesa__hide-scrollbar" data-aos="fade-up">
+          <button class="popular-foods__filter-btn active">All</button>
+          <button class="popular-foods__filter-btn">
+            <img src="img/hamburguesa-producto2.png" alt="hamburguesa2" />
+            hamburguesa
+          </button>
+          <button class="popular-foods__filter-btn">
+            <img src="img/hamburguesa-producto4.jpg" alt="hamburguesa4" />
+            doble chedar 
+          </button>
+          <button class="popular-foods__filter-btn">
+            <img src="img/hamburguesa-producto5.png" alt="hamburguesa5" />
+            triple carne
+          </button>
+          <button class="popular-foods__filter-btn">
+            <img src="img/hamburguesa-producto6.png" alt="hamburguesa6" />
+            vegetariana
+          </button>
+          <button class="popular-foods__filter-btn">All</button>
+        </div>
+  
+        <div class="popular-foods__catalogue" data-aos="fade-up">
+          <article class="popular-foods__card">
+            <img class="popular-foods__card-image" src="img/hamburguesa-producto7.png" alt="hamburguesa7" />
+            <h4 class="popular-foods__card-title">doble hamburguesa</h4>
+  
+            <div class="popular-foods__card-details flex-between">
+              <div class="popular-foods__card-rating">
+                <img src="img/star.svg" alt="star" />
+                <p>4.9</p>
+              </div>
+  
+              <p class="popular-foods__card-price">$21.00</p>
+            </div>
+          </article>
+  
+          <article class="popular-foods__card active-card">
+            <img class="popular-foods__card-image" src="assets/hamburguesa-11.png" alt="hamburguesa-11" />
+            <h4 class="popular-foods__card-title">Original hamburguesa</h4>
+            
+            <div class="popular-foods__card-details flex-between">
+              <div class="popular-foods__card-rating">
+                <img src="img/star.svg" alt="star" />
+                <p>5.0</p>
+              </div>
+              
+              <p class="popular-foods__card-price">$19.00</p>
+            </div>
+          </article>
+  
+          <article class="popular-foods__card">
+            <img class="popular-foods__card-image" src="assets/hamburguesa-10.png" alt="hamburguesa-10" />
+            <h4 class="popular-foods__card-title">triple chedar</h4>
+  
+            <div class="popular-foods__card-details flex-between">
+              <div class="popular-foods__card-rating">
+                <img src="img/star.svg" alt="star" />
+                <p>4.7</p>
+              </div>
+  
+              <p class="popular-foods__card-price">$13.00</p>
+            </div>
+          </article>
+        </div>
+  
+        <button class="popular-foods__button">
+          Explore Food
+          <img src="img/arrow-right.svg"  alt="arrow-right" />
+        </button>
+      </section>
+
+
+      <section class="trending" id="food">
+        <section class="trending-hamburguesa">
+          <div class="trending__content" data-aos="fade-right">
+            <p class="hamburguesa">hamburguesa trending</p>
+    
+            <h3 class="hamburguesa__title">hamburguesa supersonica
+            </h3>
+            <p class="hamburguesa__description">Siente el sabor de las mejores hamburguesa.
+            </p>
+    
+            <ul class="trending__list flex-between">
+              <li>
+                <div class="trending__icon flex-center">
+                  <img src="img/check.svg" alt="check" />
+                </div>
+                <p>hamburguesa con panceta</p>
+              </li>
+              <li>
+                <div class="trending__icon flex-center">
+                  <img src="img/check.svg" alt="check" />
+                </div>
+                <p>hamburguesa continental</p>
+              </li>
+              <li>
+                <div class="trending__icon flex-center">
+                  <img src="img/check.svg" alt="check" />
+                </div>
+                <p>hamburguesa pasion</p>
+              </li>
+              <li>
+                <div class="trending__icon flex-center">
+                  <img src="img/check.svg" alt="check" />
+                </div>
+                <p>hamburguesa locura</p>
+              </li>
+              <li>
+                <div class="trending__icon flex-center">
+                  <img src="img/check.svg" alt="check" />
+                </div>
+                <p>hamburguesa magica</p>
+              </li>
+              <li>
+                <div class="trending__icon flex-center">
+                  <img src="img/check.svg" alt="check" />
+                </div>
+                <p>hamburguesa descomunal</p>
+              </li>
+            </ul>
+          </div>
+    
+          <div class="trending__image flex-center">
+            <img src="img/hamburguesa-producto5.png" alt="hamburguesa5 " />
+    
+            <div class="trending__arrow trending__arrow-left">
+              <img src="img/arrow-vertical.svg" alt="arrow vertical" />
+            </div>
+    
+            <div class="trending__arrow trending__arrow-bottom">
+              <img src="img/arrow-horizontal.svg" alt="arrow horizontal" />
+            </div>
+          </div>
+  
+        </section>
+
+
+        <section class="subscription flex-center" id="services">
+          <h2 data-aos="flip-down">
+            Recibe nuestras ofertas <br />
+            directo en tu inbox
+          </h2>
+          <p data-aos="fade-up">registrate en hamburguesia novedades.</p>
+    
+          <div class="subscription__form" data-aos="fade-up">
+            <input type="text" placeholder="Enter your email address"/>
+            <button>empieza ahora</button>
+          </div>
+        </section>
+
+
+        <footer class="footer flex-between">
+          <h3 class="footer__logo">
+            <span>hamburgues</span>ia
+          </h3>
+    
+          <ul class="footer__nav">
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#food">Comida</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#about-us">Sobre <br> nosotros</a></li>
+          </ul>
+    
+          <ul class="footer__social">
+            <li class="flex-center">
+              <img src="img/facebook.svg" alt="facebook" />
+            </li>
+            <li class="flex-center">
+              <img src="img/instagram.svg" alt="instagram" />
+            </li>
+            <li class="flex-center">
+              <img src="img/twitter.svg" alt="twitter" />
+            </li>
+          </ul>
+        </footer>
+    
+        <script src="js/script.js" type="module"></script>
+    
+  
+  </body>
+</html>
