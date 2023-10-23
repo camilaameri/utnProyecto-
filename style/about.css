@@ -27,18 +27,17 @@
   background-size: contain;
 }
 
-.about-us__image-hamburguesa3 img {
-  width: 225px;
-  height: 200px;
+.about-us__image-hamburguesa3 {
+  width: 576px;
+  height: 350px;
 }
 
-.about-us__image-hamburguesa2 img {
-  width: 240px;
-  height: 160px;
+.about-us__image-hamburguesa4 {
+  width: 200px;
+  height: 300px;
 }
 
 .about-us__button {
-  position: absolute;
   right: 0;
 
   padding: 12px 32px;

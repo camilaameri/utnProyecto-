@@ -58,7 +58,7 @@ a {
   align-items: center;
 }
 
-.hamburgesa__subtitle {
+.hamburguesa__subtitle {
   font-size: 18px;
   font-weight: 400;
   font-family: var(--plus-jakarta-sans);
@@ -69,7 +69,7 @@ a {
   letter-spacing: -0.01em;
 }
 
-.hamburgesa__title {
+.hamburguesa__title {
   font-size: 64px;
   font-weight: 600;
   font-family: var(--playfair-display);
@@ -79,7 +79,7 @@ a {
   margin-top: 16px;
 }
 
-.hamburgesa__description {
+.hamburguesa__description {
   font-size: 18px;
   font-weight: 400;
   font-family: var(--plus-jakarta-sans);
